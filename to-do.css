@@ -65,6 +65,8 @@
 a{
   text-decoration: none;
   color: rgb(232, 28, 35);
+  margin-top: 1%;
+  font-size: larger;
 
 }
 #main img{
@@ -100,7 +102,7 @@ h1{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 @media  only screen and (min-width: 375px) and (max-width: 667px) {
-  
+
 }
 
 
