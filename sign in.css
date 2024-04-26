@@ -1,0 +1,206 @@
+body{
+    background-color: rgb(155, 134, 122);
+}
+#content{
+    display: flex;
+   
+    border:solid none;
+}
+
+
+
+.form{
+    margin-left: 40px;
+  color:rgb(232, 16, 138);
+font-size: large;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid none;
+   padding-left: 100px;
+   background-color:white;
+   border-radius: 20px;
+   
+   
+
+}
+h6 {
+    color: black;
+
+
+}
+input{
+    padding: 10px;
+    margin: 5px;
+     width: 30rem;
+    height: 4em;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+#checkbox{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);  
+    width: 4rem;
+    height: 1rem;
+    letter-spacing: 0px;
+}
+button{
+padding: 10px;
+background-color: rgb(232, 16, 138);
+width: 70%;
+border-radius: 15px;
+margin-left: 10%;
+margin-bottom: 2%;
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+
+}
+h6{
+    font-size: large;
+    font-style: italic;
+    font-weight: 900;
+    margin-left: 20px;
+}
+#mentor1{
+height: 870px;
+width: 750px;
+border-radius:10px;
+margin-top: 1%;
+
+}
+    
+
+@media  only screen and (min-width: 375px) and (max-width: 667px) {
+    #mentor1{
+        height: 870px;
+        width: 420px;
+        border-radius:10px;
+        
+        
+        }
+        #content{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .form{
+            margin-left: -1px;
+            color: rgb(99, 29,142);
+            font-size: large;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: solid none;
+           padding-left: 20px;
+           background-color:white;
+           border-radius: 20px;
+           
+           
+        
+        }
+        input{
+            padding: 10px;
+            margin: 5px;
+             width: 22rem;
+            height: 4em;
+            border: 0;
+            border-radius: 10px;
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
+            font-size: 1rem;
+            letter-spacing: 1px;
+        } 
+    }
+        @media  only screen and (min-width: 375px) and (max-width: 667px)  {
+            #mentor1{
+                height: 870px;
+                width: 420px;
+                border-radius:10px;
+                
+                
+                }
+                #content{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .form{
+                    margin-left: -1px;
+                    color: rgb(99, 29,142);
+                    font-size: large;
+                    font-style: italic;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    border: solid none;
+                   padding-left: 20px;
+                   background-color:white;
+                   border-radius: 20px;
+                   
+                   
+                
+                }
+                input{
+                    padding: 10px;
+                    margin: 5px;
+                     width: 22rem;
+                    height: 4em;
+                    border: 0;
+                    border-radius: 10px;
+                    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                } 
+            }
+              
+@media only screen and (min-width: 412px) and (max-width: 915px){
+                    #mentor1{
+                        height: 400px;
+                        width: 400px;
+                        border-radius:10px;
+                        
+                        
+                        }
+                        #content{
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                        .form{
+                            color: rgb(99, 29,142);
+                            font-size: large;
+                            font-style: italic;
+                            font-family: Georgia, 'Times New Roman', Times, serif;
+                            border: solid none;
+                           padding-left: 2px;
+                           background-color:white;
+                           border-radius: 2px;} 
+                           input{
+                            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
+                            font-size: 1rem;
+                        } 
+                        h1{
+                            font-family: 'Times New Roman', Times, serif;
+                            font-style: italic;
+                            text-align: center;
+                        
+                        }
+                        h6{
+                            font-size:xx-small;
+                            font-style: italic;
+                            margin-left: 2px;
+                            
+
+                        }
+                    }
+                        @media only screen and (min-width: 820px) and (max-width: 1180px){
+                            #mentor1{
+                                height: 400px;
+                                width: 600px;
+                                border-radius:10px;
+                                margin-left: 5%;
+                        }
+                        body{
+margin-left: 9%;
+                        }
+                    }
+                        
+
