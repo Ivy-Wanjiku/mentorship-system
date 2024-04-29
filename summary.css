@@ -1,0 +1,17 @@
+#summary{
+    display: flex;
+    
+}
+h1{
+    text-align: center;
+    color:rgb(232, 16, 138);
+}
+p{
+    font-size: larger;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+body{
+    background-color: rgb(155, 134, 122);
+}
