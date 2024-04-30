@@ -117,8 +117,9 @@ margin-left: 3%;
         @media  only screen and (min-width: 375px) and (max-width: 667px)  {
             #mentor1{
                 height: 870px;
-                width: 420px;
+                width: 410px;
                 border-radius:10px;
+                margin-right: 50px;
                 
                 
                 }

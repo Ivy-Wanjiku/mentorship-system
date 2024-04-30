@@ -82,66 +82,62 @@ body {
  margin-left: 20%;
  margin-top: 1%;
 }
-@media  only screen and (min-width: 375px) and (max-width: 667px) {
-  #navbar{
-    flex-wrap: wrap;
-    background-color: #f9f9f9;
-    font-weight:500;
-
-}
+                
+@media only screen and (max-width: 540px) {
+#navbar{
+                        overflow: hidden;
+                        position: relative;
+                        flex-wrap: wrap;
+                      }
+                       #navbar a {
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 17px;
+                        display: block;
+                      }
     
-  }
-    
-            
-@media only screen and (min-width: 412px) and (max-width: 915px){
-                  #mentor1{
-                      height: 400px;
-                      width: 400px;
-                      border-radius:10px;
-                      
-                      
-                      }
-                      #content{
-                          display: flex;
-                          flex-wrap: wrap;
-                      }
-                      .form{
-                          color: rgb(99, 29,142);
-                          font-size: large;
-                          font-style: italic;
-                          font-family: Georgia, 'Times New Roman', Times, serif;
-                          border: solid none;
-                         padding-left: 2px;
-                         background-color:white;
-                         border-radius: 2px;} 
-                         input{
-                          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
-                          font-size: 1rem;
-                      } 
-                      h1{
-                          font-family: 'Times New Roman', Times, serif;
-                          font-style: italic;
-                          text-align: center;
-                      
-                      }
-                      h6{
-                          font-size:xx-small;
-                          font-style: italic;
-                          margin-left: 2px;
-                          
-
-                      }
+                   
                   }
-                      @media only screen and (min-width: 820px) and (max-width: 1180px){
-                          #mentor1{
-                              height: 400px;
-                              width: 600px;
-                              border-radius:10px;
-                              margin-left: 5%;
-                      }
-                      body{
-margin-left: 9%;
-                      }
+                  @media only screen and (max-width: 768px) {
+                  
+                    #navbar{
+                        display: flex;
+                        flex-wrap: wrap;
+                  }
+                  }
+                  
+                  @media only screen and (max-width: 280px) {
+                     
+  
+                    #navbar{
+                        display: flex;
+                        flex-wrap: wrap;
+                  }
+                  .page{
+                    border-radius: 50%;
+                    width: 50%;
+                    margin-right: 20%;
+                   
+                   }
+                   #profile{
+                    display: grid;
+                    font-size: large;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                  
+                
+                    background-color: #fff;
+                    border-radius: 14px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        
+                   
+                  
+                     
+                     
+                    } 
+                    h5{
+                        margin-top: 1%;
+                      
+                    }
                   }
                       
 

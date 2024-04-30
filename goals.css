@@ -104,5 +104,54 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+  @media only screen and (max-width: 540px) {
+    #navbar{
+        overflow: hidden;
+        position: relative;
+        flex-wrap: wrap;
+      }
+       #navbar a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      #todo-app {
+        width: 40%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 150px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      margin-top: 1%;
+      }
+      #main-goals{
+        display:grid;
+        justify-content: center;
+    }
+  
+  }
+  @media only screen and (max-width: 768px) {
+  
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+  }
+  }
+  
+  @media only screen and (max-width: 280px) {
+     #todo-app {
+        width: 40%;
+        padding: 90px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  #main-goals{
+    display:grid;
+    justify-content: center;
+}
+  }
 
   

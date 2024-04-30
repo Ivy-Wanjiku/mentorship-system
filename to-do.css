@@ -72,24 +72,7 @@ a{
 #main img{
   width: 5%;
 }
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a{
-    color: #000;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
+
 #content{
     display: flex;
     margin-top: 5%;
@@ -101,9 +84,80 @@ h1{
    color:rgb(232, 16, 138);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-@media  only screen and (min-width: 375px) and (max-width: 667px) {
-
-}
+@media only screen and (max-width: 540px) {
+  #navbar{
+                          overflow: hidden;
+                          position: relative;
+                          flex-wrap: wrap;
+                        }
+                         #navbar a {
+                          padding: 14px 16px;
+                          text-decoration: none;
+                          font-size: 17px;
+                          display: block;
+                        }
+                        #todo-app {
+                          width: 60%;
+                          
+                          padding: 200px;
+                          background-color: #fff;
+                          border-radius: 10px;
+                          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                        
+                        }
+      
+                     
+                    }
+                    @media only screen and (max-width: 768px) {
+                    
+                      #navbar{
+                          display: flex;
+                          flex-wrap: wrap;
+                    }
+                    }
+                    
+                    @media only screen and (max-width: 280px) {
+                       
+    
+                      #navbar{
+                          display: flex;
+                          flex-wrap: wrap;
+                    }
+                    .page{
+                      border-radius: 50%;
+                      width: 50%;
+                      margin-right: 20%;
+                     
+                     }
+         
+                    
+                       
+                       
+                     #navbar{
+                      overflow: hidden;
+                      position: relative;
+                      flex-wrap: wrap;
+                    }
+                     #navbar a {
+                      padding: 14px 16px;
+                      text-decoration: none;
+                      font-size: 17px;
+                      display: block;
+                    }
+                    #todo-app {
+                      width: 50%;
+                      padding-left: 10%;
+                      margin-right: 40%;
+                      background-color: #fff;
+                      border-radius: 10px;
+                      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                    
+                    
+                    }
+                        
+  
+  
+                  }  
 
 
 
