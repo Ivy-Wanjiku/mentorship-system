@@ -5,6 +5,23 @@
     margin-top: 3%;
     
 }
+#navbar{
+    display: flex;
+    gap: 12%;
+    background-color: #f9f9f9;
+    font-weight:900;
+
+}
+a{
+  text-decoration: none;
+  color: rgb(232, 28, 35);
+  margin-top: 1%;
+  font-size: larger;
+
+}
+#main img{
+  width: 5%;
+}
 h1{
     text-align: center;
 
