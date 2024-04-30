@@ -1,5 +1,7 @@
 #summary{
     display: flex;
+    gap: 10%;
+    margin-left: 2%;
     
 }
 h1{
@@ -15,15 +17,24 @@ p{
 body{
     background-color: rgb(155, 134, 122);
 }
+#trevor{
+    margin-right: 1%;
+}
 @media only screen and (max-width: 280px) {
     #summary{
     flex-wrap: wrap;
+
+
     }
     h1{
         text-align: end;
         color:rgb(232, 16, 138);
     }
-    
+    p{
+        font-size: larger;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
         
 }
                      
