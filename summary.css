@@ -1,7 +1,5 @@
 #summary{
     display: flex;
-    gap: 3%;
-    margin-left: 2%;
     margin-top: 3%;
     
 }
@@ -31,6 +29,7 @@ p{
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 5%;
+    margin-left: 45px;
     
 }
 body{
@@ -38,9 +37,11 @@ body{
 }
 #trevor{
  border-radius: 1%;
-margin-top:8% ;
-    height: 60%;
+margin-top:5% ;
+    height: 70%;
     width: 600px;
+    margin-right: 65px;
+
     
 }
 @media only screen and (max-width: 280px) {
