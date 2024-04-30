@@ -1,24 +1,30 @@
 #summary{
     display: flex;
-    gap: 10%;
+    gap: 3%;
     margin-left: 2%;
+    margin-top: 3%;
     
 }
 h1{
     text-align: center;
-    color:rgb(232, 16, 138);
+
 }
 p{
-    font-size: larger;
+    font-size: x-large;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
     
 }
 body{
     background-color: rgb(155, 134, 122);
 }
 #trevor{
-    margin-right: 1%;
+ border-radius: 1%;
+margin-top:8% ;
+    height: 60%;
+    width: 600px;
+    
 }
 @media only screen and (max-width: 280px) {
     #summary{
